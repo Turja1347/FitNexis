@@ -22,7 +22,6 @@ from reportlab.lib.units import inch
 # 3. Then, you can access it using st.secrets.get("GEMINI_API_KEY")
 # For local testing, you can set it as an environment variable:
 # export GEMINI_API_KEY="YOUR_ACTUAL_GEMINI_API_KEY"
-# The provided key "AIzaSyD2HwOmN_2C_6ReXImr2sQVc2IST-0G1vA" will be used as a fallback for demonstration purposes.
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyD2HwOmN_2C_6ReXImr2sQVc2IST-0G1vA"
 
 if not GEMINI_API_KEY:
