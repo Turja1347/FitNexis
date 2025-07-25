@@ -171,7 +171,7 @@ Your browser will open the app automatically.
 ## ☁️ Deployment (Streamlit Cloud)
 
 1. Push the project to GitHub (`turja1347/fitnexis`)
-2. Visit [Streamlit Cloud](https://fitnexis-tm.streamlit.app/)
+2. Visit [FitNexis]( https://fitnexis-tm.streamlit.app/)
 3. Connect your GitHub repo
 4. Set main file path to `streamlit_app.py`
 5. Add a **Secret**:
