@@ -15,13 +15,6 @@ from reportlab.lib.units import inch
 
 
 # --- API Key Configuration ---
-# IMPORTANT: For production, it's recommended to use Streamlit Secrets:
-# 1. Create a file named `.streamlit/secrets.toml` in your project root.
-# 2. Add your API key like this:
-#    GEMINI_API_KEY = "YOUR_ACTUAL_GEMINI_API_KEY"
-# 3. Then, you can access it using st.secrets.get("GEMINI_API_KEY")
-# For local testing, you can set it as an environment variable:
-# export GEMINI_API_KEY="YOUR_ACTUAL_GEMINI_API_KEY"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyD2HwOmN_2C_6ReXImr2sQVc2IST-0G1vA"
 
 if not GEMINI_API_KEY:
