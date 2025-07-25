@@ -1,8 +1,6 @@
 # 💪 FitNexis: AI-Powered Smart Fitness & Diet Planner
 
-[![Live Preview](https://img.shields.io/badge/Live%20Preview-Streamlit-blue?logo=streamlit)](https://shieldmail-tm.streamlit.app/)
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-Streamlit-blue?logo=streamlit)](https://fitnexis-tm.streamlit.app/)
 
 A personalized fitness and diet plan generator powered by Google's Gemini AI, built with Streamlit. This application helps users calculate key health metrics (BMI, BMR, TDEE) and generates tailored workout and diet plans, which can be viewed directly in the app or downloaded as a PDF.
 
