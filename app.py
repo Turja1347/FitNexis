@@ -15,7 +15,7 @@ from reportlab.lib.units import inch
 
 
 # --- API Key Configuration ---
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyDgG4HFTp7Z3kYdyRqdDKydxxPjpXIEnVs"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyAYdJAr029N7ecXSxPo8BNi4cmUE-VRa3w"
 
 if not GEMINI_API_KEY:
     st.error("GEMINI_API_KEY is not set. Please configure it in environment variables or Streamlit secrets.")
@@ -559,3 +559,4 @@ elif st.session_state.page == 'history':
                 st.markdown(plan['diet_plan_raw'])
                 
                 st.markdown("---") # Separator for readability
+
