@@ -15,7 +15,7 @@ from reportlab.lib.units import inch
 
 
 # --- API Key Configuration ---
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyB8DHe_OjWljFkXRkEW-LFNHhsTJR9rcrM"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyC0flFJrPIas536UeaE0qrw56PhOeN4YIA"
 
 if not GEMINI_API_KEY:
     st.error("GEMINI_API_KEY is not set. Please configure it in environment variables or Streamlit secrets.")
